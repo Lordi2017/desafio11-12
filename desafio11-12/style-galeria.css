@@ -1,0 +1,112 @@
+
+*{
+    /* border: green solid;*/ 
+     box-sizing: border-box;
+
+ }
+ body{
+     background: rgb(0,0,0);
+     background: linear-gradient(90deg, rgba(0,0,0,0.17130602240896353) 
+     0%, 3%, rgba(241,241,241,1) 39%, rgba(0,212,255,1) 100%);
+     background-repeat: round;
+     font-family: "roboto";
+     text-align: center;  
+ }
+ 
+ #header{font-size: 10pt;}
+
+ /***************CONTAINER DO MENU*************/
+ #nav{
+     display: block;
+     position: relative;
+     right: 420px; 
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     width: 400PX;    
+     background-color: #559eec;
+     border-radius: 15px;
+     padding: 1px;
+     color: #fff;
+     text-align: center;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ a{
+     text-decoration: none;
+     color: #f1f5f7;
+ }
+ 
+ ul{
+     list-style: none;
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ /***********GALERIA DE FOTOS************/
+ #section{
+     display: block;
+     position: relative;
+     top: 40px;
+     left: 222px;
+     width: 800px;
+     border: 2px solid #007bff;
+     border-radius: 15px;
+     padding: 20px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     margin: 20px;   
+     align-items: center;
+}
+
+.gallery-container {
+     margin: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 70px;
+}
+
+.gallery-item {
+     margin-right: 10px;
+     margin-bottom: 10px;
+     position: relative;
+}
+
+.gallery-item img {
+     max-width: 200px;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: transform 0.2s;
+}
+
+.gallery-item:hover img {
+     transform: scale(1.1);
+}
+
+.caption {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     color: #fff;
+     padding: 5px;
+     font-size: 14px;
+     text-align: center;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+}
+
+ /*********ULTIMA SEÇÃO -- FOOTER*******/
+ .footer{
+     display: block;
+     width: 100%;
+     margin-top: 50px;
+     margin-left: 220px;
+     color: #054c97;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     background-color: #559eec;
+     border-radius: 15px;
+     padding: 5px;
+     color: #fff;      
+     line-height: 1.5;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 

@@ -1,0 +1,125 @@
+*{
+   /* border: green solid;*/ 
+    box-sizing: border-box;
+}
+body{
+     background: rgb(0,0,0);
+     background: linear-gradient(90deg, rgba(0,0,0,0.17130602240896353) 
+     0%, 3%, rgba(241,241,241,1) 39%, rgba(0,212,255,1) 100%);
+     background-repeat: round;
+     font-family: "roboto";
+     text-align: center;
+}
+
+#header{
+   font-size: 10pt;
+}
+/***************CONTAINER DO MENU*************/
+#nav{
+     display: block;
+     position: relative;
+     right: 480px; 
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     width: 400PX;    
+     background-color: #559eec;
+     border-radius: 15px;
+     padding: 1px;
+     color: #fff;
+     text-align: center;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a{
+     text-decoration: none;
+     color: #f1f5f7;
+}
+
+ul{
+     list-style: none;
+     display: flex;
+     justify-content: space-around;
+}
+
+/********Seção com artigo e galeria************/
+
+.section{
+     position: relative;
+     top: 40px;
+     left: 200px;
+}
+
+.article-container {
+     font-style: italic;
+     border: 2px solid #007bff;
+     border-radius: 15px;
+     padding: 20px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     position: relative;
+     bottom: 30px;
+    
+       
+}
+
+.article-container h2 {
+     color: #054c97;
+}
+
+.article-container p {
+     line-height: 1.6;
+}
+
+/******************GALERIA*************/
+.gallery-container {
+     margin: 20px;
+}
+
+.gallery-container img {
+     width: 100%;
+     max-width: 200px;
+     margin-right: 10px;
+     border-radius: 10px;
+}
+
+.img-galeria{  
+    height: 250px;
+}
+
+#button{
+     display: block;
+     width: 150px;
+     margin-top: 50px;
+     margin-left: 600px;
+}
+
+.button {
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #559eec;
+     color: #ffffff;
+     text-decoration: none;
+     border-radius: 5px;
+     transition: background-color 0.3s;
+     margin-right: 10px;
+  }
+  
+  .button:hover {
+     background-color: #0ebcdf;
+  }
+
+
+/*********ULTIMA SEÇÃO -- FOOTER*******/
+.footer{
+     display: block;
+     width: 100%;
+     margin-top: 50px;
+     margin-left: 220px;
+     color: #054c97;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     background-color: #559eec;
+     border-radius: 15px;
+     padding: 5px;
+     color: #fff;      
+     line-height: 1.5;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
